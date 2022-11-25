@@ -74,7 +74,7 @@ double Deposit(){
     double amount = 0;
 
     printf("\nPlease enter the amount of"
-    " money you would like to deposit\n:$ ");
+    " money you would like to deposit\n:$");
     scanf("%lf", &amount);
 
     if(amount > 0)
@@ -88,7 +88,7 @@ double Withdraw(double balance){
     double amount = 0;
 
     printf("\nPlease enter the amount of"
-    " money you would like to withdraw\n:$ ");
+    " money you would like to withdraw\n:$");
     scanf("%lf", &amount);
 
     if(amount > balance)
